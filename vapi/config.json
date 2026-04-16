@@ -41,5 +41,10 @@
     "cc9a8954-8d96-47fe-b3bb-d816b4923adb",
     "4a3fd08a-7f02-48e4-a751-ffdaf76d3485",
     "9ea404bc-7c6a-4076-8a70-724f2edddb7e"
-  ]
+  ],
+  "spanish_tool_ids": {
+    "list_services": "708d3738-8a04-4e03-9464-cea3004e93cc",
+    "create_ticket": "f314b2bb-ce5c-4484-9617-7dcd85b26f49",
+    "check_ticket_status": "aaae05a5-7db8-4a63-9339-2376e6213221"
+  }
 }

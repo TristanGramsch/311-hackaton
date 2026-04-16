@@ -240,7 +240,8 @@ def create_assistant(tool_ids, file_ids):
             },
             "transcriber": {
                 "provider": "deepgram",
-                "language": "multi",
+                "language": "en",
+                "model": "nova-3",
             },
             "silenceTimeoutSeconds": 30,
             "maxDurationSeconds": 600,
