@@ -1,0 +1,120 @@
+{
+  "portal_url": "https://data.boston.gov",
+  "mcp_endpoint": "https://kdbjj7ebdewlcy24bt4wbf3uju0tjgdf.lambda-url.us-east-1.on.aws/mcp",
+  "core_datasets": [
+    {
+      "id": "311-service-requests",
+      "title": "311 Service Requests",
+      "description": "All 311 service requests from all channels. Transitioning to new backend (Oct 2025 - mid 2026).",
+      "org": "Boston 311",
+      "resources": 21,
+      "url": "https://data.boston.gov/dataset/311-service-requests"
+    },
+    {
+      "id": "trash-schedules-by-address",
+      "title": "Trash Schedules by Address",
+      "description": "Current trash and recycling schedules for each address.",
+      "org": "Public Works",
+      "resources": 2,
+      "url": "https://data.boston.gov/dataset/trash-schedules-by-address"
+    },
+    {
+      "id": "trash-collection-days",
+      "title": "Trash Collection Days",
+      "description": "PWD trash collection days by district.",
+      "org": "Public Works",
+      "resources": 6,
+      "url": "https://data.boston.gov/dataset/trash-collection-days"
+    },
+    {
+      "id": "approved-building-permits",
+      "title": "Approved Building Permits",
+      "description": "Building permits establishing compliance with State Building Code.",
+      "org": "Inspectional Services",
+      "resources": 12,
+      "url": "https://data.boston.gov/dataset/approved-building-permits"
+    },
+    {
+      "id": "building-and-property-violations1",
+      "title": "Building and Property Violations",
+      "description": "Building and property code violations.",
+      "org": "Inspectional Services",
+      "resources": 1,
+      "url": "https://data.boston.gov/dataset/building-and-property-violations1"
+    },
+    {
+      "id": "public-works-violations",
+      "title": "Public Works Violations",
+      "description": "Citations issued by PWD Code Enforcement Division.",
+      "org": "Public Works",
+      "resources": 1,
+      "url": "https://data.boston.gov/dataset/public-works-violations"
+    },
+    {
+      "id": "active-food-establishment-licenses",
+      "title": "Active Food Establishment Licenses",
+      "description": "Currently licensed food establishments in Boston.",
+      "org": "Inspectional Services",
+      "resources": 1,
+      "url": "https://data.boston.gov/dataset/active-food-establishment-licenses"
+    },
+    {
+      "id": "parking-meters",
+      "title": "Parking Meters",
+      "description": "City of Boston parking meter locations.",
+      "org": "Transportation",
+      "resources": 6,
+      "url": "https://data.boston.gov/dataset/parking-meters"
+    },
+    {
+      "id": "streetlight-locations",
+      "title": "Streetlight Locations",
+      "description": "PWD Street Lighting Division maintains 40,000 of 67,000 streetlights.",
+      "org": "Public Works",
+      "resources": 3,
+      "url": "https://data.boston.gov/dataset/streetlight-locations"
+    },
+    {
+      "id": "bprd-trees",
+      "title": "BPRD Trees",
+      "description": "City tree inventory managed by Parks and Recreation.",
+      "org": "Parks & Recreation",
+      "resources": 2,
+      "url": "https://data.boston.gov/dataset/bprd-trees"
+    },
+    {
+      "id": "park-features",
+      "title": "Park Features",
+      "description": "Park features and amenities.",
+      "org": "Parks & Recreation",
+      "resources": 7,
+      "url": "https://data.boston.gov/dataset/park-features"
+    },
+    {
+      "id": "blue-bike-stations",
+      "title": "Blue Bike Stations",
+      "description": "BlueBikes bike-share station locations.",
+      "org": "Transportation",
+      "resources": 2,
+      "url": "https://data.boston.gov/dataset/blue-bike-stations"
+    },
+    {
+      "id": "rentsmart",
+      "title": "RentSmart",
+      "description": "Compiles 311 and ISD data for prospective tenants evaluating rental properties.",
+      "org": "Department of Innovation and Technology",
+      "resources": 13,
+      "url": "https://data.boston.gov/dataset/rentsmart"
+    },
+    {
+      "id": "mayors-24-hour-hotline",
+      "title": "Mayors 24 Hour Hotline",
+      "description": "Legacy dataset from before the 311 platform launched in 2015.",
+      "org": "Boston 311",
+      "resources": 1,
+      "url": "https://data.boston.gov/dataset/mayors-24-hour-hotline"
+    }
+  ],
+  "total_datasets_on_portal": "400+",
+  "note": "Use search_datasets MCP tool to discover additional datasets beyond this curated list."
+}

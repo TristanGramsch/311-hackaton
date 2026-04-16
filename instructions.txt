@@ -1,0 +1,39 @@
+# Boston 311 Agent — Knowledge Base Usage
+
+## Three-Layer Architecture
+
+### Layer 1: Static Reference Docs (knowledge-base/static/)
+Eight Markdown files providing comprehensive 311 service info. Inject relevant docs
+into the agent's system prompt or retrieve via Layer 2.
+
+Files: agent-identity, service-catalog, department-routing, common-requests, faq,
+data-guide, neighborhoods, contact-info.
+
+### Layer 2: RAG Vector Store (rag/)
+ChromaDB + sentence-transformers (all-MiniLM-L6-v2). Chunks from Layer 1 are embedded
+for semantic search.
+
+Usage:
+  from rag.query import search
+  results = search("How do I report a pothole?", n_results=5)
+
+Re-ingest after editing static docs:
+  python rag/ingest.py
+
+### Layer 3: Structured Data Catalog (knowledge-base/structured/)
+JSON files for programmatic lookups:
+- resource-ids.json — Quick-reference UUIDs for Boston Open Data resources
+- schemas.json — Field names/types for key datasets
+- service-types.json — Service-to-department routing map with keyword matching
+- datasets.json — Curated dataset catalog
+
+### MCP Server (Live Data)
+Endpoint: https://kdbjj7ebdewlcy24bt4wbf3uju0tjgdf.lambda-url.us-east-1.on.aws/mcp
+Tools: search_datasets, list_all_datasets, get_dataset_info, get_datastore_schema, query_datastore
+See knowledge-base/static/06-data-guide.md for full usage docs.
+
+## Setup
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  python rag/ingest.py

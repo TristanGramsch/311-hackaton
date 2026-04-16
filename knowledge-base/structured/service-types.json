@@ -1,0 +1,210 @@
+{
+  "departments": {
+    "PWD": {
+      "full_name": "Public Works Department",
+      "legacy_code": "PWDx",
+      "new_system_name": "Public Works Department (PWD)",
+      "services": [
+        "Pothole Repair",
+        "Sidewalk Repair",
+        "Missed Trash Pickup",
+        "Missed Recycling Pickup",
+        "Missed Yard Waste Pickup",
+        "Bulk Item Collection",
+        "Street Cleaning",
+        "Street Light Outage",
+        "Street Light Other",
+        "Illegal Dumping",
+        "Improper Storage of Trash",
+        "Overflowing Trash Can",
+        "Snow Removal",
+        "Graffiti Removal",
+        "Rodent Activity"
+      ]
+    },
+    "ISD": {
+      "full_name": "Inspectional Services Department",
+      "legacy_code": "ISD",
+      "services": [
+        "Building Inspection (Structural)",
+        "Electrical Inspection",
+        "Plumbing Inspection",
+        "Housing Inspection",
+        "Code Enforcement",
+        "Poor Condition of Property",
+        "Illegal Occupancy",
+        "Zoning Violation",
+        "Work Without Permit",
+        "Work Exceeding Permit",
+        "Working Beyond Hours",
+        "Construction Debris",
+        "Overcrowding",
+        "Student Overcrowding",
+        "Insufficient Heat",
+        "Excessive Heat",
+        "Lead Paint Inspection",
+        "Unsatisfactory Living Conditions",
+        "Squalid Living Conditions",
+        "Maintenance Complaint (Residential)",
+        "Rental Unit Delivery Conditions",
+        "Bed Bug Inspection",
+        "Mice Infestation",
+        "Pest Inspection"
+      ]
+    },
+    "BTD": {
+      "full_name": "Boston Transportation Department",
+      "legacy_code": "BTDT",
+      "services": [
+        "Sign Repair",
+        "Traffic Signal Inspection",
+        "Parking Enforcement",
+        "Abandoned Vehicles",
+        "Pavement Marking (New)",
+        "Crosswalk Request",
+        "Walk Light Problem"
+      ]
+    },
+    "Parks": {
+      "full_name": "Parks & Recreation",
+      "new_system_name": "Parks & Recreation",
+      "services": [
+        "Park Maintenance",
+        "Park Light Outage",
+        "Park Groundskeeping",
+        "Planting Request",
+        "Pruning Request",
+        "Tree or Stump Removal",
+        "Tree Maintenance",
+        "Damaged Play Equipment",
+        "Damaged Fountain",
+        "Cemetery Maintenance"
+      ]
+    },
+    "AnimalControl": {
+      "full_name": "Animal Care & Control",
+      "new_system_name": "Animal Care & Control",
+      "services": [
+        "Domestic Animal Issue",
+        "Wild Animal Issue",
+        "Lost Pet",
+        "Animal Bite",
+        "Barking Dog",
+        "Dead Animal Pickup"
+      ]
+    },
+    "BPD": {
+      "full_name": "Boston Police Department",
+      "services": [
+        "Noise Complaint",
+        "Loud Party",
+        "Taxi Complaint",
+        "Crime Tip"
+      ]
+    },
+    "BFD": {
+      "full_name": "Boston Fire Department",
+      "services": [
+        "Fire Prevention Permits",
+        "Smoke Detector Inspection",
+        "Carbon Monoxide Detector Inspection"
+      ]
+    },
+    "BPHC": {
+      "full_name": "Boston Public Health Commission",
+      "services": [
+        "Restaurant Inspection",
+        "Food Safety Complaint",
+        "Unsanitary Conditions (Food Establishment)"
+      ]
+    },
+    "ParkingClerk": {
+      "full_name": "Parking Clerk",
+      "services": [
+        "Parking Ticket Payment",
+        "Parking Ticket Appeal",
+        "Resident Parking Permit"
+      ]
+    },
+    "Licensing": {
+      "full_name": "Licensing Board",
+      "services": [
+        "Alcohol License",
+        "Entertainment License",
+        "Common Victualler License"
+      ]
+    },
+    "ConsumerAffairs": {
+      "full_name": "Consumer Affairs and Licensing",
+      "services": [
+        "Public Event Permit",
+        "Consumer Complaint",
+        "Weights and Measures"
+      ]
+    },
+    "NeedleProgram": {
+      "full_name": "Mayor's 24 Hour Hotline / Needle Program",
+      "legacy_code": "GEN_",
+      "services": [
+        "Needle Pickup",
+        "Encampments"
+      ]
+    }
+  },
+  "routing_keywords": {
+    "pothole": "PWD",
+    "trash": "PWD",
+    "recycling": "PWD",
+    "garbage": "PWD",
+    "bulk item": "PWD",
+    "street light": "PWD",
+    "streetlight": "PWD",
+    "sidewalk": "PWD",
+    "snow": "PWD",
+    "dumping": "PWD",
+    "graffiti": "PWD",
+    "rodent": "PWD",
+    "rat": "PWD",
+    "building permit": "ISD",
+    "inspection": "ISD",
+    "code violation": "ISD",
+    "heat": "ISD",
+    "overcrowding": "ISD",
+    "zoning": "ISD",
+    "construction": "ISD",
+    "lead paint": "ISD",
+    "bed bug": "ISD",
+    "mice": "ISD",
+    "pest": "ISD",
+    "landlord": "ISD",
+    "traffic sign": "BTD",
+    "traffic signal": "BTD",
+    "parking enforcement": "BTD",
+    "abandoned vehicle": "BTD",
+    "crosswalk": "BTD",
+    "park maintenance": "Parks",
+    "tree": "Parks",
+    "playground": "Parks",
+    "park light": "Parks",
+    "fountain": "Parks",
+    "lost pet": "AnimalControl",
+    "dog": "AnimalControl",
+    "cat": "AnimalControl",
+    "animal": "AnimalControl",
+    "wildlife": "AnimalControl",
+    "noise": "BPD",
+    "loud party": "BPD",
+    "taxi": "BPD",
+    "fire permit": "BFD",
+    "smoke detector": "BFD",
+    "restaurant": "BPHC",
+    "food safety": "BPHC",
+    "parking ticket": "ParkingClerk",
+    "resident permit": "ParkingClerk",
+    "alcohol license": "Licensing",
+    "entertainment license": "Licensing",
+    "event permit": "ConsumerAffairs",
+    "needle": "NeedleProgram",
+    "encampment": "NeedleProgram"
+  }
+}
