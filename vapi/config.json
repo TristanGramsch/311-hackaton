@@ -17,5 +17,29 @@
     "5628aaf8-ffb1-4a8a-b6a3-4723ffe4ce1b",
     "246f79f8-0f08-414d-a3cb-36f20d9d18e4",
     "ccb5a685-fc8c-413a-9e11-59295017ea9a"
+  ],
+  "bilingual_assistant_id": "c6a49052-1610-4721-a90c-cdfc9a1a102d",
+  "bilingual_tool_ids": {
+    "list_services": "fb8b00dc-885f-4023-a65d-6760c9a5d10a",
+    "create_ticket": "66891795-f95b-4083-9a2e-856101cd4bd6",
+    "check_ticket_status": "08f80477-334b-41cc-9b20-85b23ba78274"
+  },
+  "bilingual_file_ids": [
+    "55ef39ac-109b-4dac-8187-fc3effc1a202",
+    "2c7c92a9-ee05-4e74-9aad-f3c0b0fae371",
+    "6be880a5-ba09-4b71-a880-4d208f226e7c",
+    "8bada866-ea90-40e0-bc87-1c17fecd230a",
+    "4803a2e9-b11c-4608-8036-dd0f7ccb648d",
+    "9a55a49e-3bbc-426c-88e1-436565cf6a02",
+    "3904604d-9e88-4ad8-86f6-e628de8142f5",
+    "846e2c1c-51e4-474c-b32c-bf09f47ecd0d",
+    "13486d09-b52a-418f-866c-f7b4f18a261c",
+    "dc0a0387-53b6-4e11-80b0-604661df59a7",
+    "ce31c096-74f9-4e3b-9ae4-1fa1c5d93263",
+    "2add7a20-3251-4e0b-a13a-d148f5c0e61b",
+    "85d6b8fb-a178-4069-981d-929aa9a05394",
+    "cc9a8954-8d96-47fe-b3bb-d816b4923adb",
+    "4a3fd08a-7f02-48e4-a751-ffdaf76d3485",
+    "9ea404bc-7c6a-4076-8a70-724f2edddb7e"
   ]
 }
