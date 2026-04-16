@@ -1,0 +1,21 @@
+{
+  "vapi_api_key": "ac3044c1-1a73-4212-b6be-c3a1f9adf478",
+  "open311_api_key": "",
+  "open311_base_url": "https://311.boston.gov/open311/v2",
+  "assistant_id": "7edfa781-fd2e-4064-a3ea-e912e91c9375",
+  "tool_ids": {
+    "list_services": "0ff54a41-62d3-4af7-8b72-d044a7ca9b22",
+    "create_ticket": "b58ea7b0-0cda-43fd-b0fc-6e2cbbc03710",
+    "check_ticket_status": "105f48ef-0cae-42e7-a15d-db3f1f4f0127"
+  },
+  "file_ids": [
+    "9b2805a0-26f5-4da6-89cc-fbbd5141de92",
+    "7507e182-4b15-4b6d-b9de-e5e7945d7740",
+    "25f1020c-9a6f-4ed6-b227-b60cecd27a5c",
+    "271674cb-b0b6-412a-8e2a-2513b066c9ac",
+    "b5068e45-0c5c-44f1-913d-19f225a862f7",
+    "5628aaf8-ffb1-4a8a-b6a3-4723ffe4ce1b",
+    "246f79f8-0f08-414d-a3cb-36f20d9d18e4",
+    "ccb5a685-fc8c-413a-9e11-59295017ea9a"
+  ]
+}
